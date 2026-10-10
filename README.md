@@ -1,155 +1,303 @@
-GREENLEAF RETAIL STORES NIGERIA
+# 🌿 GREENLEAF RETAIL STORES NIGERIA
 
-Sales Performance Analysis Dashboard
+## Sales Performance Analysis Dashboard
 
-A Microsoft Excel Data Analytics Capstone Project
-Prepared by: Faith Osakwe
-Dataset period: January–December 2025
-Documentation date: September 2026
-Cohort: Data Analytics Community Group
-Tool: Microsoft Excel
+**Project Type:** Data Analytics Capstone Project  
+**Prepared By:** Faith Osakwe  
+**Dataset Period:** January – December 2025  
+**Documentation Date:** September 2026  
+**Cohort:** Data Analytics Community Group  
+**Primary Tool:** Microsoft Excel
 
-Transforming retail sales data into actionable business insights.
+> **Project Tagline:** Transforming retail sales data into actionable business insights.
 
-1. Title Page
+---
 
-This project documents the analysis of GreenLeaf Retail Stores Nigeria’s 2025 sales data using Microsoft Excel. The goal is to turn transaction-level records into a clear, interactive dashboard that supports sales-performance review and business decisions.
+# 1. 📊 Dashboard Preview
 
-2. Dashboard Preview
+The GreenLeaf Retail Sales Dashboard provides an interactive overview of business performance across branches, product categories, discounts, and months.
 
-GreenLeaf Retail Stores Sales Dashboard
+### **Completed Dashboard**
 
-Figure 1. The dashboard presents six KPI cards, four charts, a branch slicer, and a key-insights panel.
+![GreenLeaf Sales Dashboard](Greenleaf%20Dashboard.jpeg)
 
-Dashboard components
+*Figure 1: Interactive sales dashboard showing six KPI cards, four charts, a branch slicer, and a key-insights panel.*
 
-• KPI cards: Total Sales, Total Discount, Discount %, Total Quantity, Total Transactions, and Average Order Value.
-• Branch analysis: Total Sales by Branch and Sales & Discount Rate by Branch.
-• Category analysis: Sales by Product Category.
-• Time analysis: Monthly Sales Trend.
-• Interactivity: A branch slicer allows users to explore branch-level performance.
+### **Dashboard Components**
 
-3. Table of Contents
+- **Total Sales:** Overall sales generated.
+- **Total Discount:** Total discounts recorded.
+- **Discount Percentage:** Displayed overall discount rate.
+- **Total Quantity:** Units sold.
+- **Total Transactions:** Number of transactions.
+- **Average Order Value:** Average sales value per transaction.
 
-1. Title Page
-2. Dashboard Preview
-3. Table of Contents
-4. Project Overview
-5. Business Problem Statement
-6. Project Objectives
-7. About the Dataset
-8. Tools & Technologies Used
-9. Data Cleaning Process
-10. Dashboard Wireframe
-11. Key Insights
-12. Business Recommendations
-13. Conclusion
-14. Appendix / GitHub Repository
+### **Visualizations**
 
-4. Project Overview
+1. **Total Sales by Branch** — compares sales across branches.
+2. **Sales and Discount Rate by Branch** — compares branch sales and discount rates.
+3. **Sales by Product Category** — compares category contributions.
+4. **Monthly Sales Trend** — shows changes in sales throughout 2025.
 
-This project uses transaction-level retail sales data for January–December 2025 to build an interactive Microsoft Excel dashboard. It summarizes sales, discounts, quantity, transaction count, average order value, branch performance, product-category performance, and monthly sales patterns.
+### **Interactive Feature**
 
-The dashboard is intended to help users compare branches, identify high-performing categories, review monthly movement, and explore discount patterns. The displayed results report ₦152,589,401 in total sales, 1,500 transactions, and 9,614 units sold.
+The **Branch Slicer** allows users to filter the dashboard and explore individual branch performance.
 
-5. Business Problem Statement
+---
 
-Retail managers need a consolidated view of sales performance across branches, product categories, discounts, and months. Without a common report, it can be difficult to identify leading locations, understand category contribution, assess discount patterns, and spot stronger or weaker periods.
+# 2. 📑 Table of Contents
 
-Business question: How can GreenLeaf use its 2025 sales data to understand performance across branches, categories, discounts, and months, and identify practical opportunities for improvement?
+1. Project Overview
+2. Business Problem Statement
+3. Project Objectives
+4. About the Dataset
+5. Tools and Technologies
+6. Data Cleaning Process
+7. Dashboard Design and Wireframe
+8. Key Insights
+9. Business Recommendations
+10. Conclusion
+11. Project Files and Repository
 
-6. Project Objectives
+---
 
-• Summarize overall performance using sales, discounts, quantity, transaction count, and average order value.
-• Compare branch sales and identify the leading branch.
-• Compare sales contributions by product category.
-• Review monthly sales patterns and identify high and low periods.
-• Compare branch discount rates and recommend follow-up actions.
+# 3. 🎯 Project Overview
 
-7. About the Dataset
+This project analyzes retail sales data for GreenLeaf Retail Stores Nigeria covering January to December 2025.
 
-The dataset covers January–December 2025. Project notes described the dataset as 1,537 rows and 13 columns, but the supplied worksheet screenshot visibly shows more than 13 field headings. The definitive column count should be confirmed against the Excel workbook before publication.
+The project uses Microsoft Excel to organize sales information, summarize performance indicators, compare branches, analyze product categories, and examine monthly sales trends.
 
-|Field visible in the worksheet|Description                                     |
-|------------------------------|------------------------------------------------|
-|Transaction ID                |Transaction identifier.                         |
-|Date                          |Date of the transaction.                        |
-|Branch                        |Store or branch associated with the transaction.|
-|Region                        |Region associated with the branch.              |
-|Product Category              |Category of the product sold.                   |
-|Product Name                  |Name of the product.                            |
-|Quantity                      |Units sold in the transaction.                  |
-|Unit Price (NGN)              |Price per unit in naira.                        |
-|Discount (%)                  |Discount rate recorded.                         |
-|Total Sales (NGN)             |Sales value recorded for the transaction.       |
-|Payment Method                |Payment type recorded.                          |
-|Sales Rep                     |Sales representative recorded.                  |
-|Customer Type                 |Customer classification recorded.               |
-|Gross Sales (NGN)             |Gross sales value shown in the worksheet.       |
-|Discount Amount               |Discount value shown in the worksheet.          |
+The final deliverable is an **interactive Excel dashboard** designed to make sales performance easier to understand and support evidence-based business decisions.
 
+### **Overall Performance**
 
-8. Tools & Technologies Used
+| Key Performance Indicator | Result |
+|---|---:|
+| Total Sales | ₦152,589,401 |
+| Total Discount | ₦5,898,974 |
+| Total Quantity Sold | 9,614 |
+| Total Transactions | 1,500 |
+| Average Order Value | ₦101,726 |
 
-• Microsoft Excel: data organization, PivotTables/PivotCharts, KPI calculations, dashboard layout, and branch slicer.
-• GitHub: project repository and publication of the dashboard, screenshots, and documentation.
-• Markdown: formatting this project documentation in the repository README.
+---
 
-9. Data Cleaning Process
+# 4. 🧩 Business Problem Statement
 
-The supplied worksheet screenshot is labelled “GreenLeaf Retail Sales (CLEANED)” and shows a structured table with transaction, date, branch, product, quantity, price, discount, payment, sales representative, customer type, and sales-value fields. The screenshot does not establish exactly which cleaning operations were performed, so this section distinguishes visible evidence from checks requiring confirmation.
+Retail businesses need reliable information to understand how different branches and product categories contribute to overall sales performance.
 
-Visible preparation evidence
+Without a consolidated reporting system, management may find it difficult to identify high-performing branches, monitor discounts, recognize monthly sales patterns, and determine where further investigation is needed.
 
-• Column headers and filter controls are present in a structured worksheet.
-• The Date field is displayed in a date format.
-• Sales and price fields are labelled in Nigerian naira (NGN), while Discount (%) is a separate field.
-• Some visible categorical values read “Unknown”; their intended meaning and treatment should be verified.
+This project addresses that challenge by consolidating sales information into an interactive dashboard.
 
-Validation checklist for the workbook
+### **Key Business Question**
 
-• Check duplicate Transaction IDs and investigate repeated IDs.
-• Review blanks and “Unknown” entries in categorical fields.
-• Confirm dates are valid and within the intended period.
-• Check that quantities, unit prices, sales, and discount amounts are numeric and valid.
-• Validate the relationship between quantity, unit price, gross sales, discount amount, and total sales.
-• Record each actual cleaning decision and include before-and-after examples where available.
+**How can GreenLeaf Retail Stores Nigeria use its 2025 sales data to evaluate branch performance, understand product-category contributions, monitor discounts, and identify opportunities to improve sales performance?**
 
-Only describe a cleaning operation as completed after confirming it from the workbook or your working notes.
+---
 
-10. Dashboard Wireframe
+# 5. 🎯 Project Objectives
 
-The final dashboard places six KPI cards across the top, branch and discount comparisons in the middle, category and monthly-trend charts below, and the branch slicer and key-insights panel on the right. This hierarchy presents headline performance first, followed by comparisons and a way to filter the results.
+The objectives of this project were to:
 
-A separate pre-build wireframe image was not supplied. This section therefore describes the completed dashboard layout; if an original PowerPoint sketch exists, it can be added to the images folder and linked here.
+- **Evaluate overall sales performance** using key performance indicators.
+- **Compare branch performance** and identify the highest-selling branch.
+- **Analyze product categories** to determine which categories generate the most sales.
+- **Examine monthly sales trends** to identify stronger and weaker periods.
+- **Review discount patterns** across branches.
+- **Develop business recommendations** based on the findings.
 
-11. Key Insights
+---
 
-The following findings are based on values visible in the dashboard screenshot and project notes; amounts are rounded for readability.
+# 6. 🗂️ About the Dataset
 
-• Overall performance: ₦152,589,401 in total sales across 1,500 transactions, with 9,614 units sold and an average order value of approximately ₦101,726.
-• Leading branch: Kano recorded the highest branch sales at approximately ₦26.25 million.
-• Leading category: Groceries generated approximately ₦30.34 million in sales, the highest category total shown.
-• Monthly peak: January recorded the highest monthly sales at approximately ₦14.86 million, followed by October at approximately ₦14.26 million.
-• Discount rate: Enugu had the highest displayed branch discount rate at 4.70%.
-• Total discount: ₦5,898,974. The dashboard displays Discount % as 4%, a rounded figure; confirm the exact calculation and denominator before external reporting.
+The dataset covers transactions recorded between **January and December 2025**.
 
-12. Business Recommendations
+Previous project notes recorded 1,537 rows and 13 columns. However, the supplied worksheet screenshot appears to contain more fields than that. The final column count should be verified against the workbook before publication.
 
-• Branch managers: Review Kano’s sales performance, product availability, and sales practices to identify approaches that may be useful elsewhere.
-• Category managers: Monitor grocery stock and demand patterns. Compare other categories to find products that may benefit from promotions or assortment changes.
-• Regional and finance teams: Review Enugu’s 4.70% discount rate against sales outcomes and margin targets. Confirm that discounts are approved and effective.
-• Marketing team: Investigate factors behind the January and October peaks before repeating seasonal or promotional activities.
-• Operations and analytics: Track the same KPIs monthly and validate sales and discount formulas for reliable comparisons.
+### **Data Dictionary**
 
-These are suggested actions based on the dashboard patterns. Further operational data is needed to confirm the causes behind the results.
+| Column | Description |
+|---|---|
+| Transaction ID | Unique transaction identifier |
+| Date | Transaction date |
+| Branch | Retail branch |
+| Region | Geographic region |
+| Product Category | Category of the product sold |
+| Product Name | Name of the product |
+| Quantity | Number of units sold |
+| Unit Price (NGN) | Price per unit |
+| Discount (%) | Discount rate |
+| Total Sales (NGN) | Recorded sales value |
+| Payment Method | Method used to make payment |
+| Sales Rep | Sales representative |
+| Customer Type | Customer classification |
+| Gross Sales (NGN) | Gross sales value |
+| Discount Amount | Discount value |
 
-13. Conclusion
+### **Dataset Limitation**
 
-This project consolidates 2025 sales data into an interactive Excel dashboard for monitoring branch, category, discount, and monthly performance. The displayed results identify Kano as the leading branch, Groceries as the leading category, January as the strongest month, and Enugu as the branch with the highest displayed discount rate.
+The full Excel workbook has not yet been independently audited for missing values, duplicate transactions, inconsistent formats, or formula accuracy. These checks should be confirmed before final publication.
 
-Before decisions are made, the underlying workbook and cleaning history should be validated. Potential next steps include profit/margin analysis, product-level performance, year-over-year comparisons, and linking sales patterns with stock or campaign data.
+---
 
+# 7. 🛠️ Tools and Technologies Used
 
-Author: Faith Osakwe
-Focus: Data Analytics | Excel | Power BI | SQL
+### **Microsoft Excel**
+
+Used for data organization, calculations, PivotTables, PivotCharts, KPI cards, and dashboard development.
+
+### **PivotTables and PivotCharts**
+
+Used to summarize sales performance and visualize comparisons across branches, categories, and months.
+
+### **Excel Formulas**
+
+Used to calculate and display key performance indicators.
+
+### **Interactive Slicers**
+
+Used to filter the dashboard by branch.
+
+### **GitHub**
+
+Used to publish the project documentation, dashboard screenshot, and Excel workbook.
+
+---
+
+# 8. 🧹 Data Cleaning Process
+
+The supplied worksheet is labelled **GreenLeaf Retail Sales (CLEANED)**.
+
+The visible worksheet contains transaction IDs, dates, branches, product information, quantities, prices, discounts, payment methods, sales representatives, customer types, and sales values.
+
+### **Visible Preparation Evidence**
+
+- The data is arranged in a structured worksheet with column headers.
+- The Date field is displayed in date format.
+- Sales and price fields are labelled in Nigerian naira.
+- Discount percentage is stored as a separate field.
+- Some categorical values appear as "Unknown" and require confirmation of their intended meaning.
+
+### **Validation Checklist**
+
+The following checks should be confirmed against the actual workbook:
+
+1. **Duplicate Transactions:** Check whether Transaction IDs are unique.
+2. **Missing Values:** Review blank fields and "Unknown" entries.
+3. **Date Consistency:** Confirm dates use a consistent format.
+4. **Numeric Validity:** Check quantities, prices, sales, and discounts.
+5. **Calculation Accuracy:** Validate the relationship between quantity, price, gross sales, and discount amounts.
+6. **Documentation:** Record the actual cleaning decisions and methods used.
+
+**Note:** The specific cleaning operations should only be described as completed after they have been verified.
+
+---
+
+# 9. 🎨 Dashboard Design and Wireframe
+
+The completed dashboard follows a visual hierarchy intended to make key information easy to locate.
+
+### **Dashboard Layout**
+
+- **Top Section:** Six KPI cards summarize overall performance.
+- **Middle Section:** Branch sales and discount-rate comparisons.
+- **Lower Section:** Product-category sales and monthly sales trends.
+- **Right Section:** Branch slicer and key-insights panel.
+
+### **Dashboard Wireframe**
+
+![GreenLeaf Dashboard Wireframe](Greenleaf%20wireframe.png)
+
+**Design Note:** The completed dashboard screenshot is available in the Dashboard Preview section. A separate original wireframe image has not yet been supplied.
+
+---
+
+# 10. 🔍 Key Insights
+
+### **1. Overall Sales Performance**
+
+Total recorded sales were **₦152.59 million**, across 1,500 transactions and 9,614 units sold.
+
+### **2. Highest-Performing Branch**
+
+**Kano** recorded the highest branch sales at approximately **₦26.25 million**.
+
+### **3. Leading Product Category**
+
+**Groceries** generated approximately **₦30.34 million**, making it the highest-selling category shown.
+
+### **4. Monthly Sales Performance**
+
+**January** recorded the highest monthly sales at approximately **₦14.86 million**, followed by October at approximately ₦14.26 million.
+
+### **5. Branch Discount Rate**
+
+**Enugu** recorded the highest displayed branch discount rate at **4.70%**.
+
+### **6. Total Discounts**
+
+Total recorded discounts were **₦5,898,974**.
+
+The displayed overall discount percentage is rounded to 4%. The precise calculation and denominator should be verified before external reporting.
+
+---
+
+# 11. 💡 Business Recommendations
+
+### **Branch Management**
+
+Investigate Kano's sales performance to understand whether product availability, customer demand, or sales practices may explain its leading position.
+
+### **Inventory and Category Management**
+
+Monitor grocery demand and stock availability while examining other categories for opportunities to improve product performance.
+
+### **Discount Management**
+
+Review Enugu's discount rate against sales results and business margin targets to determine whether the discounts are commercially effective.
+
+### **Marketing Strategy**
+
+Investigate the factors associated with January and October sales peaks before repeating seasonal or promotional activities.
+
+### **Performance Monitoring**
+
+Review the dashboard regularly and validate sales and discount calculations to maintain consistent reporting.
+
+---
+
+# 12. ✅ Conclusion
+
+This project demonstrates how Microsoft Excel can transform retail transaction data into a structured and interactive sales dashboard.
+
+The analysis highlights differences in branch performance, product-category sales, monthly trends, and discount rates.
+
+The dashboard provides a foundation for further investigation and business decision-making.
+
+Future enhancements could include profit-margin analysis, product-level performance, year-over-year comparisons, and the integration of inventory or marketing data.
+
+---
+
+# 13. 📁 Project Files
+
+| File | Description |
+|---|---|
+| `README.md` | Project documentation |
+| `GreenLeaf_Sales_Dashboard.xlsx` | Interactive Excel dashboard |
+| `images/greenleaf_dashboard.png` | Dashboard screenshot |
+| `images/greenleaf_wireframe.png` | Original wireframe, if available |
+
+---
+
+# 14. 👩‍💻 Author and Repository
+
+**Author:** Faith Osakwe  
+**Focus Areas:** Data Analytics, Microsoft Excel, Power BI, and SQL
+
+**GitHub Profile:** [Ugolink](https://github.com/Ugolink)
+
+**Project Repository:** [GreenLeaf Retail Sales Analysis](https://github.com/Ugolink/GreenLeaf-Retail-Sales-Analysis)
+
+---
+
+*This project was developed as part of a Data Analytics Community Group capstone project.*
