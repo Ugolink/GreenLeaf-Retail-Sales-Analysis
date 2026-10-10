@@ -19,7 +19,7 @@ The GreenLeaf Retail Sales Dashboard provides an interactive overview of busines
 
 ### **Completed Dashboard**
 
-![GreenLeaf Sales Dashboard](Greenleaf%20Dashboard.jpeg)
+![GreenLeaf Sales Dashboard](GreenLeaf%20Dashboard.jpeg)
 
 *Figure 1: Interactive sales dashboard showing six KPI cards, four charts, a branch slicer, and a key-insights panel.*
 
