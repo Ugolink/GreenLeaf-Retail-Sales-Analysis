@@ -208,9 +208,6 @@ The completed dashboard follows a visual hierarchy intended to make key informat
 
 ![GreenLeaf Dashboard Wireframe](Greenleaf%20wireframe.png)
 
-**Design Note:** The completed dashboard screenshot is available in the Dashboard Preview section. A separate original wireframe image has not yet been supplied.
-
----
 
 # 10. 🔍 Key Insights
 
