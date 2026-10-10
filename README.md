@@ -134,10 +134,6 @@ Previous project notes recorded 1,537 rows and 13 columns. However, the supplied
 | Gross Sales (NGN) | Gross sales value |
 | Discount Amount | Discount value |
 
-### **Dataset Limitation**
-
-The full Excel workbook has not yet been independently audited for missing values, duplicate transactions, inconsistent formats, or formula accuracy. These checks should be confirmed before final publication.
-
 ---
 
 # 7. 🛠️ Tools and Technologies Used
